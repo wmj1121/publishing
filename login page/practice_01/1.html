@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <style>
+            * {font-family: 'apple gothic'}
+        </style>
+        <link rel="stylesheet" href="style.css" /> 
+    </head>
+
+    <body>
+        <h1>회원가입</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th>이름</th>
+                    <td><input type="text" placeholder=""> </td>
+                </tr>
+
+                <tr>
+                    <th>비밀번호</th>
+                    <td><input type="text" placeholder=""></td>
+                </tr>
+
+                <tr>
+                    <th>거주지</th>
+                    <td>
+                        <select>
+                            <option>선택</option>
+                            <option>용인</option>
+                            <option>부천</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>성별</th>
+                    <td>
+                        <input type="radio" name="minji" checked="checked" />여자
+                        <input type="radio" name="minji"  />남자
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>자기소개</th>
+                    <td>
+                        <textarea></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>개인정보동의</th>
+                    <td><input type="checkbox" checked="checked" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <button>전송하기</button>
+        </div>
+    </body>
+</html>

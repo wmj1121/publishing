@@ -1,0 +1,170 @@
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0;
+}
+
+.wrap {
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+.top .di {
+    position:absolute;
+    height:30px;
+}
+
+.top .ci {
+    position:absolute;
+    height:30px;
+    left:115px;
+}
+
+.contents {
+    width: 100%;
+    position:relative;
+    padding-top:40px;
+}
+
+.contents .list {
+    position:absolute;
+    left:105px;
+    top:60px;
+}
+
+.contents .fr {
+    position: absolute;
+    top: 300px;
+}
+
+.buttons {
+    position:relative;
+    top:230px;
+}
+
+.buttons .my {
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+.buttons .me {
+    position:absolute;
+    top:10px;
+    left:130px;
+}
+
+.buttons .mine {
+    position:absolute;
+    top:10px;
+    left:250px;
+}
+
+.buttons .you {
+    position:absolute;
+    top:110px;
+    left:10px;
+}
+
+.buttons .your {
+    position:absolute;
+    top:110px;
+    left:130px;
+}
+
+.buttons ul li:nth-child(6) {
+    position:absolute;
+    top:110px;
+    left:250px;
+}
+
+.buttons ul li:nth-child(3) {
+    border: 1px solid yellow;
+}
+
+.profile {
+    position:relative;
+    top:5px;
+}
+
+h3 {
+    height:20px;
+    width:110px;
+    text-align:center;
+    color:white;
+    font-size:13;
+}
+
+.profile .picture {
+    position:absolute;
+    left:10px;
+    top:20px;
+}
+
+.profile .level {
+    position:absolute;
+    left:10px;
+    top:20px;
+}
+
+.profile .setting {
+    position:absolute;
+    top:15px;
+    left:75px;
+}
+
+.weekly {
+    position:absolute;
+    top:120px;
+    height:30px;
+    width:100px;
+    text-align:center;
+}
+
+.weekly strong {
+    color:white;
+}
+
+.weekly span {
+    color:#85c5e1;
+}
+
+.profile .continue {
+    position:absolute;
+    left:10px;
+    top:160px;
+    color:white;
+}
+
+.continue em {
+    color: red;
+    font-style:normal;
+}
+
+.profile .btn {
+    position:absolute;
+    top:180px;
+    left:10px;
+}
+
+/* Weekly list */
+.weeklylist {
+    position:absolute;
+    top:550px;
+    left: 120px;
+    width: 220px;
+    border: 1px solid red;
+}
+
+.weeklylist ul.tab {
+    height: 20px;
+    border: 1px solid yellow;
+}
+
+.weeklylist ul.tab li {
+    float: left;
+    width: 80px;
+    border: 1px solid white;
+}

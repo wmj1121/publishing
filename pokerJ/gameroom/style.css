@@ -1,0 +1,384 @@
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+    font-style:'apple gothic';
+}
+
+.wrap {
+    position:relative;
+    width:100%;
+    height:100%;
+    background-image:url('basic.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+} 
+
+.top {
+    position:relative;
+    width:100%;
+    top:10px;
+    height: 65px;
+}
+
+.top button {
+    position:absolute;
+    left:10px;
+    width:85px;
+    height:25px;
+    background-color:black;
+    color:#737574;
+}
+
+.top .out {
+    margin-top:40px;
+}
+
+.top div {
+    position:absolute;
+    right:35px;
+}
+
+.top span {
+    color:#737574;
+}
+
+.top .score {
+    color:white;
+}
+
+.wrap .card {
+    position:absolute;
+    top:140px;
+}
+
+.wrap .profile {
+    position:absolute;
+    top:20px;
+    width:100%;
+    height:555px;
+}
+
+.profileinner {
+    position:relative;
+}
+
+.profileinner .chaming {
+    position:absolute;
+    left:50%;
+    width:80px;
+    margin-left:-40px;
+    height:110px;
+}
+
+.profileinner span {
+    color:white;
+    font-size:13px;
+}
+
+.profileinner strong {
+    color:yellow;
+}
+
+.profileinner .nickname {
+    position:absolute;
+    width:75px;
+    height:30px;
+    text-align:center;
+}
+
+.profileinner .thum {
+    position:absolute;
+    top:35px;
+}
+
+.profileinner .myimage {
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+
+.profileinner .star {
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+.profileinner .minicard {
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+
+
+.profileinner .fold {
+    position:absolute;
+    top:37px;
+    left:1px;
+}
+
+
+.profileinner .hipo {
+    position:absolute;
+    top:60px;
+    left:10px;
+    width:75px;
+    height:110px;
+}
+
+
+.profileinner .sweet {
+    position:absolute;
+    top:65px;
+    right:10px;
+    width:75px;
+    height:110px;
+}
+
+
+.sweet .star {
+    position:absolute;
+    top:4px;
+    left:-4px;
+}
+
+.profileinner .tossna {
+    position:relative;
+    top:280px;
+    left:10px;
+    width:75px;
+    height:130px;
+}
+
+.tossna .mainscore  {
+    text-align:center;
+}
+
+.tossna .nickname {
+    position:absolute;
+    top:100px;
+}
+
+.tossna .thum {
+    position:absolute;
+    top:20px;
+}
+
+.mainscore strong {
+    color:#a7e73b;
+    font-size:20px;
+}
+
+.profileinner .life {
+    position:relative;
+    top:260px;
+    left:50%;
+    width:80px;
+    margin-left:-40px;
+    height:130px;
+}
+
+.life .mainscore  {
+    text-align:center;
+}
+
+.life .nickname {
+    position:absolute;
+    top:100px;
+    width:85px;
+}
+
+.life .thum {
+    position:absolute;
+    top:20px;
+    left:5px;
+}
+
+.life .win {
+    position:absolute;
+    top:25px;
+}
+
+.life .star {
+    position:absolute;
+    top:8px;
+}
+
+.profileinner .noname {
+    position:absolute;
+    top:260px;
+    right:10px;
+    width:75px;
+    height:130px;
+}
+
+.wrap .card {
+    position:relative;
+    width: 100%;
+    height:250px;
+    top:80px;
+}
+
+.card .centercard {
+    position:absolute;
+    top:60px;
+    left:50%;
+    margin-left:-175px;
+    width:350px;
+    
+}
+
+.card .scoreboard {
+    position:absolute;
+    top:150px;
+    left:50%;
+    margin-left:-100px;
+    width:200px;
+}
+
+.wrap .allin ul {
+    position:relative;
+    width:100%;
+    height:80px;
+    top:120px;
+}
+
+.wrap .allin ul li button {
+    
+}
+
+.allin ul li:nth-child(1) {
+    position:absolute;
+    top:0;
+    left:5px;
+}
+
+.allin ul li:nth-child(2) {
+    position:absolute;
+    top:0;
+    left:85px;
+}
+
+.allin ul li:nth-child(3) {
+    position:absolute;
+    top:65px;
+    left:5px;
+}
+
+.allin ul li:nth-child(4) {
+    position:absolute;
+    top:65px;
+    left:85px;
+}
+
+.allin .king {
+    position:absolute;
+    width:110px;
+    height:110px;
+    top:430px;
+    right:20px;
+    border-bottom:1px solid #666;
+}
+
+.king .min {
+    position:absolute;
+    left:5px;
+}
+
+.king span {
+    position:absolute;
+    top:90px;
+    color:#666;
+    font-size:13px;
+}
+
+.king em {
+    font-style:normal;
+    color:#669933;
+}
+
+.allin .bottom {
+    position:absolute;
+    width:150px;
+    height:100px;
+    top:550px;
+    right:10px;
+}
+
+
+
+.wrap .chat {
+    position:relative;
+    width:100%;
+    height:40px;
+    top:175px;
+}
+
+.chat ul li:nth-child(1) {
+    position:absolute;
+    top:0;
+    left:10px;
+}
+
+.chat ul li:nth-child(2) {
+    position:absolute;
+    top:0;
+    left:60px;
+}
+
+.chat ul li:nth-child(3) {
+    position:absolute;
+    top:0;
+    left:110px;
+}
+
+.chat ul li:nth-child(4) {
+    position:absolute;
+    top:0;
+    left:160px;
+}
+
+.chat ul li:nth-child(5) {
+    position:absolute;
+    top:30px;
+    left:10px;
+}
+
+.chat ul li:nth-child(6) {
+    position:absolute;
+    top:30px;
+    left:60px;
+}
+
+.chat ul li:nth-child(7) {
+    position:absolute;
+    top:30px;
+    left:110px;
+}
+
+.chat ul li:nth-child(8) {
+    position:absolute;
+    top:30px;
+    left:160px;
+}
+
+.chat div {
+    position:absolute;
+    width:100%;
+    top:65px;
+    left:10px;
+}
+
+.chat span {
+    color:#666666;
+}
+
+
+
+
+
+
+
+
+

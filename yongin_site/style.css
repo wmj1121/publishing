@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.wrap {
+    position: relative;
+    text-align: center;
+}
+
+.top {
+    position: relative;
+    height: 600px;
+    background-color: #1353a3;
+}
+
+.top .logo {
+    padding-top: 43px;
+}
+
+.baro {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    margin-left: -435px;
+    width: 870px;
+}
+
+.baro ul {
+    margin-right:70px;
+}
+
+.baro ul.my {
+    float: left;
+    width: 240px;
+    height: 380px;
+    background-color: #fca043;
+    border-radius: 20px;
+}
+
+.baro ul.me {
+    float: left;
+    width: 240px;
+    height: 380px;
+    background-color: #3face8;
+    border-radius: 20px;
+}
+
+.baro ul.mine {
+    float: left;
+    width: 240px;
+    height: 380px;
+    margin-right:0;
+    background-color: #fc6d3f;
+    border-radius: 20px;
+}
+
+.baro ul li.tit {
+    font-size: 18px;
+    font-style: bold;
+    padding-top: 20px;
+}
+
+.baro ul li.im {
+    margin-top:20px;
+    margin-bottom:25px;
+}
+
+.baro ul li.home {
+    margin-top: 20px;
+}
+
+
+.baro ul li button {
+    background-color: white;
+    width: 150px;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 80px;
+    border-color:white;
+}
+
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    background-color:black;
+    height: 230px;
+}
+
+.footer ul {
+    position:absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.footer ul li {
+    text-align: left;
+}
+
+.footer ul li.one {
+    margin-bottom: 20px;
+}
+
+.footer ul li.two {
+    margin-bottom: 10px;
+}
+
+.footer ul li.thr {
+    margin-bottom: 30px;
+}

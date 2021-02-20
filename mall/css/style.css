@@ -1,0 +1,635 @@
+* {
+    padding:0;
+    margin:0;
+    border:0;
+    list-style:none;
+    font-family:'apple gothic';
+}
+
+.wrap {
+    position:relative;
+    width:100%;
+    height:100%;
+    background-color:#fff;
+}
+
+.wrap .sidemenu {
+    position:absolute;
+    height:890px;
+    width:90px;
+    top:250px;
+    right:230px;
+}
+
+.sideinner { position:relative; }
+.sideinner .hot { position:absolute; }
+.sideinner .brand {
+    position:absolute;
+    top:130px;
+    width:75px;
+    height:240px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    background-color:white;
+}
+.sideinner .shoppingbag {
+    position:absolute;
+    top:380px;
+    height:275px;
+    width:80px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    background-color:white;
+}
+
+.sideinner .talk {position:absolute; top:665px;} 
+
+.sideinner .mix {
+    font-size:12px;
+    padding-left:8px;
+}
+
+.sideinner .talk div {
+    padding-bottom:5px;
+}
+
+.brand {
+    position:relative;
+}
+
+.sideinner .brand {
+    padding-left:5px;
+}
+
+.brand .miniright {
+    position:absolute;
+    top:180px;
+    left:45px;
+}
+
+.brand .minileft {
+    position:absolute;
+    top:180px;
+    left:20px;
+}
+
+.brand .homecare {
+    position:absolute;
+    top:210px;
+    width:80px;
+    height:30px;
+    left:0;
+    border-top:1px solid #ccc;
+}
+
+.header {
+    position:relative;
+    width:100%;
+    height:184px;
+    border-bottom:1px solid red;
+}
+
+.header .gnb {
+    position: relative;
+    padding:10px;
+    height:30px;
+    border-bottom:1px solid #ccc;
+}
+
+.gnb div {
+    position:absolute;
+    top:0;
+    left: 50%;
+    margin-left: -540px;
+    width: 1080px;
+    height: 45px;
+}
+
+.gnb div aside {
+    position:absolute;
+    top: 8px;
+    left:0;
+}
+
+.gnb .login {
+    position:absolute;
+    right:-10px;
+    padding-top:15px;
+    width:430px;
+}
+
+.gnb .login li {
+    float:left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.gnb .login em {
+    font-style:normal;
+    color:red;
+}
+
+.header .search {
+    position: relative;
+    padding:10px;
+    height:60px;
+    border-bottom:1px solid #ccc;
+}
+
+.search .searchinner {
+    position:absolute;
+    top: 0;
+    left:50%;
+    margin-left: -540px;
+    width: 1080px;
+    height: 90px;
+    
+}
+
+.searchinner .logo {
+    position:absolute;
+    top:30px;
+    left: 0;
+}
+
+input[type=text] {
+    position:absolute;
+    top:19px;
+    left:180px;
+    background-color:#f9fcff;
+    width:510px;
+    height:40px;
+    border-radius:20px;
+} 
+
+.searchinner .view {
+    position:absolute;
+    left:645px;
+    top:25px;
+}
+
+.searchinner .apple {
+    position:absolute;
+    right:290px;
+    top:27px;
+}
+
+.header .categoly {
+    position:relative;
+    top:0;
+    height:50px;
+}
+
+.categoly .categolyinner {
+    position:absolute;
+    height:50px;
+    left:550px;
+    top:0;
+}
+
+.categolyinner ul {
+    padding-top:13px;
+}
+
+.categolyinner ul li {
+    float:left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.container {
+    position:relative;
+    width:100%;
+    top:0;
+    height:510px;
+    background-color:#e7dbde;
+}
+
+.container .allcartegoly {
+    position:absolute;
+    width:1090px;
+    margin-left:-540px;
+    left:50%;
+
+}
+
+
+.container .allmenu {
+    position:absolute;
+    top:-53px;
+    left:0;
+    width:160px;
+    height:52px;
+    background-color:white;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.containerinner {
+    position:relative;
+}
+
+.containerinner #totalmenu{
+    display: none;
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 510px;
+    background: red;
+    z-index: 100;
+}
+
+
+.container .detailmenu {
+    position:absolute;
+    left:0;
+    height:510px;
+    width:160px;
+    background-color:#8b8385;
+}
+
+.containerinner ul li {
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:4px;
+    margin-bottom:4px;
+}
+
+.mainthum {
+    position:relative;
+    width:1080px;
+    margin-left:-540px;
+    left:50%;
+}
+
+.mainthuminner .bigimage {
+    position:absolute;
+    left:160px;
+    top:0;
+    border: 1px solid red;
+}
+
+.mainthuminner .bigimage ul{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mainthuminner .bigimage ul li{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.mainthuminner .left {
+    position:absolute;
+    top:220px;
+    left:163px;
+}
+
+.mainthuminner .right {
+    position:absolute;
+    top:220px;
+    right:13px;
+}
+
+.mainthuminner .point {
+    position:absolute;
+    top:312px;
+    left:240px;
+}
+
+.mainthuminner .sale {
+    position:absolute;
+    top:314px;
+    left:370px;
+}
+
+.undermenu {
+    position:absolute;
+    top:468px;
+    left:160px;
+}
+
+.undermenu ul {
+    position:absolute;
+    height:42px;
+    width:870px;
+    background-color:white;
+}
+
+.undermenu ul li {
+    float:left;
+    width:100%;
+    height:30px;
+    width:143px;
+    text-align:center;
+    padding-top:10px;
+    border:1px solid #ccc;
+}
+
+.undermenu ul li span {
+    font-size:13px;
+}
+
+
+.container .hit {
+    position:relative;
+    width:1080px;
+    left:50%;
+    margin-left:-540px;
+    height:245px;
+    top:540px;
+    border-bottom:1px solid #ccc;
+}
+
+.hitinner .hitthum {
+    position:absolute;
+    width:100%;
+    left:20px;
+}
+
+.hitinner .hitthum li{
+    float:left;
+}
+
+.hit .minile {
+    position:absolute;
+    top:72px;
+    left:-19px;
+}
+
+.hit .miniri {
+    position:absolute;
+    top:72px;
+    right:14px;
+}
+
+.hit .hitinner {
+    position:absolute;
+    width:1118px;
+    left:50%;
+    margin-left:-561px;
+}
+
+
+
+.hitinner .hitthum li:nth-child(2) {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.hitinner .hitsticker {
+    position:absolute;
+    top:177px;
+    left:35px;
+}
+
+.hitinner .hitsticker li:nth-child(3) {
+    position:absolute;
+    top:0;
+    right:-350px;
+}
+
+.hitinner .hitsticker li{
+    float:left;
+    padding-right:281px;
+}
+
+
+.contents {
+    position:relative;
+    width:1080px;
+    left:50%;
+    margin-left:-540px;
+    height:600px;
+    top:260px;
+}
+
+.contents .item {
+    position:absolute;
+    height:515px;
+    margin-top:30px;
+}
+
+.contents .iteminner {
+    position:relative;
+}
+
+.iteminner .today span {
+    font-size:13px;
+}
+
+.iteminner .today strong {
+    font-size:25px;
+}
+
+.iteminner ul li {
+    float:left;
+    width:250px;
+    height:430px;
+    margin-top:20px;
+}
+
+.iteminner ul li:nth-child(2) {
+    margin-left:20px;
+}
+
+.iteminner ul li:nth-child(3) {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.iteminner .itemlist {
+    position:relative;
+}
+
+.itemlist .itemtitle {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:12px;
+}
+
+.itemlist ul li em {
+    color:#a7a8af;
+    font-size:12px;
+    font-style:normal;
+}
+
+.itemlist ul li del {
+    font-size:10px;
+    color:#a7a8af;
+}
+
+.pricered {
+    color:red;
+}
+
+.itemprice {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.itemlist ul li .free {
+    position:absolute;
+    top:394px;
+    left:60px;
+}
+
+.itemlist ul li .pick {
+    position:absolute;
+    top:374px;
+    right:90px;
+}
+
+.itemlist ul li .smart {
+    position:absolute;
+    top:376px;
+    right:150px;
+}
+
+.priceinner {
+    color:#17957a;
+    padding-top:5px;
+    font-size:13px;
+}
+
+.footer {
+    position:relative;
+    width:100%;
+    height:280px;
+    top:250px;
+    background:#232a32;
+}
+
+.footer .explain {
+    padding-top:15px;
+}
+
+.footerinner {
+    position:relative;
+    width:1080px;
+    left:50%;
+    margin-left:-540px;
+}
+
+.footerinner .footertop {
+    position:absolute;
+    width:100%;
+    height:60px;
+    border-bottom:1px solid #384048;
+}
+
+.footerinner ul {
+    padding-top:21px;
+}
+
+.footerinner .box {
+    position:absolute;
+    top:-7px;
+    left:380px;
+}
+
+.footerinner .box li {
+    height:22px;
+    border:1px solid white;
+    padding: 8px 5px 0 5px;
+}
+
+.footerinner .box li div {
+    padding:6px;
+    padding-left:7px;
+}
+
+.footerinner .box  a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footerinner ul li {
+    float:left;
+    padding-right:5px;
+    margin-right:5px;
+    font-size:12px;
+    color:white;
+}
+
+.footertop ul li:nth-child(1) {
+    color:#aeb3bb;
+}
+
+.footertop ul li:nth-child(3) {
+    color:#aeb3bb;
+}
+
+.footertop .box li div{
+    color:#d3d3d5;
+}
+
+.footertop .family {
+    position:absolute;
+    top:14px;
+    right:0;
+}
+
+.footerinner .lotte {
+    position:absolute;
+    top:95px;
+}
+
+.footerinner .explaininner {
+    position:absolute;
+    left:260px;
+    top:85px;
+}
+
+.explaininner ul li {
+    width: 100%;
+    padding-bottom:5px;
+    color:#6a747c;
+    font-size:11px;
+}
+
+.explaininner em {
+    font-style:normal;
+}
+
+.explaininner .footername {
+    color:#6a747c;
+}
+
+.explaininner ul li:nth-child(5) {
+    padding-top:20px;
+}
+
+.explaininner .snslogo {
+    position:absolute;
+    width:100px;
+    height:50px;
+    right:0;
+}
+
+.snslogo ul {
+    position:absolute;
+    width:100px;
+    top:-30px;
+}
+
+
+.snslogo ul li {
+    width:20px;
+    float:left;
+}
+
+
+
+
+
+
+
+
